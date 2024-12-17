@@ -60,6 +60,10 @@ android {
     }
   }
 
+  buildFeatures {
+    buildConfig true
+  }
+
   compileSdkVersion getExtOrIntegerDefault("compileSdkVersion")
 
   defaultConfig {
